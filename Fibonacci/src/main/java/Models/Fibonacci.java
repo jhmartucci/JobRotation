@@ -12,7 +12,7 @@ public class Fibonacci {
 
     public List<Integer> calculaFibonacci(){
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Quantos números devemos considerar a seguencia de Fibonacci...: ");
+        System.out.print("Quantos números devemos considerar a sequencia de Fibonacci...: ");
         int tamanho = scanner.nextInt();
          for(int i = 0; i < tamanho; i++){
              fibonacci.add(inicio);
