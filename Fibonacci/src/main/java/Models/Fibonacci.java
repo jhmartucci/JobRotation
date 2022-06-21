@@ -5,9 +5,9 @@ import java.util.List;
 import java.util.Scanner;
 
 public class Fibonacci {
-    int inicio = 0;
-    int countador = 1;
-    int aux = 0;
+    private int inicio = 0;
+    private int countador = 1;
+    private int aux = 0;
     List<Integer> fibonacci = new ArrayList<>();
 
     public List<Integer> calculaFibonacci(){
